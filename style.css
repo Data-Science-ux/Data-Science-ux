@@ -1,0 +1,37 @@
+:root{
+  --color-primary:#0D6EFD;
+  --color-secondary:#FF6B6B;
+  --bg:#F8FAFC;
+  --text:#111827;
+  --muted:#6B7280;
+  --container:1200px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, Arial, sans-serif;margin:0;background:var(--bg);color:var(--text)}
+.wrap{max-width:var(--container);margin:0 auto;padding:0 24px}
+.site-header{background:#fff;position:sticky;top:0;z-index:40;box-shadow:0 2px 8px rgba(2,6,23,0.06)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;padding:16px 24px}
+.logo{font-family:Poppins, Inter, sans-serif;font-weight:700;text-decoration:none;color:var(--text)}
+.main-nav a{margin-left:18px;text-decoration:none;color:var(--text)}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;text-decoration:none}
+.btn.primary{background:var(--color-primary);color:#fff}
+.btn.ghost{background:transparent;border:1px solid #e5e7eb}
+.hero{padding:64px 0}
+.hero-grid{display:grid;grid-template-columns:1fr 420px;gap:40px;align-items:center}
+.hero-left h1{font-family:Poppins, Inter, sans-serif;font-size:48px;margin:8px 0}
+.lead{color:var(--muted);font-size:18px}
+.hero-right img{width:100%;height:auto;border-radius:16px;object-fit:cover}
+.services{padding:56px 0}
+.service-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:#fff;border-radius:12px;padding:24px;box-shadow:0 8px 24px rgba(2,6,23,0.06);text-align:left}
+.icon{color:var(--color-primary);margin-bottom:12px}
+.testimonial{padding:56px 0}
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.test-card{background:#fff;border-radius:12px;padding:20px;text-align:center}
+.test-card img{width:80px;height:80px;border-radius:50%;object-fit:cover;margin-bottom:12px}
+.contact{padding:56px 0}
+.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:800px}
+.contact-form input, .contact-form textarea{padding:12px;border-radius:8px;border:1px solid #e5e7eb}
+.contact-form textarea{grid-column:1/3;min-height:140px}
+.site-footer{padding:24px 0;background:#fff;margin-top:40px;text-align:center}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.service-cards,.test-grid{grid-template-columns:1fr}.contact-form{grid-template-columns:1fr}.main-nav{display:none}}
