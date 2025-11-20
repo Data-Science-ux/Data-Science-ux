@@ -1,0 +1,16 @@
+<svg width="375" height="812" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f3f4f6"/>
+  <rect x="16" y="20" width="343" height="50" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="30" y="52" font-family="Arial" font-size="16" fill="#111827">Navbar (hamburger)</text>
+
+  <rect x="16" y="90" width="343" height="220" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="30" y="120" font-family="Arial" font-size="18" fill="#111827">Hero — texte + image</text>
+
+  <text x="30" y="330" font-family="Arial" font-size="18" fill="#111827">Services</text>
+  <rect x="16" y="360" width="343" height="120" fill="#ffffff" stroke="#e5e7eb"/>
+
+  <text x="30" y="500" font-family="Arial" font-size="18" fill="#111827">Testimonials</text>
+  <rect x="16" y="530" width="343" height="120" fill="#ffffff" stroke="#e5e7eb"/>
+
+  <rect x="0" y="768" width="375" height="44" fill="#111827"/>
+</svg>
